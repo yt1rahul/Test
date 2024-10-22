@@ -1,0 +1,15 @@
+1729574713452	geckodriver	INFO	Listening on 127.0.0.1:65017
+1729574713988	mozrunner::runner	INFO	Running command: "C:\\Users\\rahuly\\.cache\\selenium\\firefox\\win64\\131.0.3\\firefox.exe" "--marionette" "--remote-debuggi ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rahuly\\AppData\\Local\\Temp\\rust_mozprofileUrbXE2"
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "app02.jaggaer.com" - not a valid origin.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729574716404	Marionette	INFO	Marionette enabled
+1729574716683	Marionette	INFO	Listening on port 65039
+WebDriver BiDi listening on ws://127.0.0.1:65018
+Read port: 65039
+1729574716889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65018/devtools/browser/9be73441-9c67-4a85-8f72-d90a3d431229
+1729574773458	Marionette	INFO	Stopped listening on port 65039
+Dynamically enable window occlusion 1
