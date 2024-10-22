@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.7 on win32)" generated="2024-10-22T17:01:02.898127" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo9 Suite" source="c:\RobotframeworkTraining\Test\selenium-suite\demo9_suite.robot">
+<test id="s1-t1" name="TC3" line="27">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:03.189495" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-22T17:01:03.188986" elapsed="3.990148"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-10-22T17:01:07.180145" elapsed="0.049677"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>20s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-10-22T17:01:07.230822" elapsed="0.002002"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:07.235337" level="INFO">Opening url 'https://datatables.net/extensions/select/examples/checkbox/checkbox.html'</msg>
+<arg>url=https://datatables.net/extensions/select/examples/checkbox/checkbox.html</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-10-22T17:01:07.233825" elapsed="2.551962"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.820895" level="INFO">${value} = Airi Satou</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.786787" elapsed="0.034108"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.820895" elapsed="0.001031"/>
+</kw>
+<var name="${counter}">1</var>
+<status status="PASS" start="2024-10-22T17:01:09.786787" elapsed="0.035139"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.844512" level="INFO">${value} = Angelica Ramos</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.822896" elapsed="0.021616"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.844512" elapsed="0.001001"/>
+</kw>
+<var name="${counter}">2</var>
+<status status="PASS" start="2024-10-22T17:01:09.821926" elapsed="0.023587"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.875615" level="INFO">${value} = Ashton Cox</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.845513" elapsed="0.030102"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.875615" elapsed="0.000967"/>
+</kw>
+<var name="${counter}">3</var>
+<status status="PASS" start="2024-10-22T17:01:09.845513" elapsed="0.031069"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.899826" level="INFO">${value} = Bradley Greer</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.876582" elapsed="0.023244"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.900824" elapsed="0.000000"/>
+</kw>
+<var name="${counter}">4</var>
+<status status="PASS" start="2024-10-22T17:01:09.876582" elapsed="0.024242"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.924471" level="INFO">${value} = Brenden Wagner</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.900824" elapsed="0.023647"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.925467" elapsed="0.000000"/>
+</kw>
+<var name="${counter}">5</var>
+<status status="PASS" start="2024-10-22T17:01:09.900824" elapsed="0.024643"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.951995" level="INFO">${value} = Brielle Williamson</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.926466" elapsed="0.026529"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.952995" elapsed="0.000000"/>
+</kw>
+<var name="${counter}">6</var>
+<status status="PASS" start="2024-10-22T17:01:09.926466" elapsed="0.026529"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:09.989407" level="INFO">${value} = Bruno Nash</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.954076" elapsed="0.036334"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.990410" elapsed="0.001000"/>
+</kw>
+<var name="${counter}">7</var>
+<status status="PASS" start="2024-10-22T17:01:09.954076" elapsed="0.037334"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:10.013655" level="INFO">${value} = Caesar Vance</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:09.992412" elapsed="0.022223"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:10.014635" elapsed="0.000000"/>
+</kw>
+<var name="${counter}">8</var>
+<status status="PASS" start="2024-10-22T17:01:09.991410" elapsed="0.024346"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:10.036166" level="INFO">${value} = Cara Stevens</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:10.015756" elapsed="0.020410"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:10.036166" elapsed="0.001001"/>
+</kw>
+<var name="${counter}">9</var>
+<status status="PASS" start="2024-10-22T17:01:10.015756" elapsed="0.021411"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-10-22T17:01:10.059272" level="INFO">${value} = Cedric Kelly</msg>
+<var>${value}</var>
+<arg>xpath=//table[@id='example']/tbody/tr[${counter}]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-22T17:01:10.038169" elapsed="0.021103"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${value}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-22T17:01:10.059272" elapsed="0.001605"/>
+</kw>
+<var name="${counter}">10</var>
+<status status="PASS" start="2024-10-22T17:01:10.037167" elapsed="0.023710"/>
+</iter>
+<var>${counter}</var>
+<value>1</value>
+<value>11</value>
+<status status="PASS" start="2024-10-22T17:01:09.786787" elapsed="0.274090"/>
+</for>
+<status status="PASS" start="2024-10-22T17:01:03.187921" elapsed="6.873862"/>
+</test>
+<status status="PASS" start="2024-10-22T17:01:02.904634" elapsed="7.158150"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Demo9 Suite">Demo9 Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
